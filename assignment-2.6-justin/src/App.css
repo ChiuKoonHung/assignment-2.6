@@ -1,0 +1,76 @@
+
+h1{
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  margin: 20px auto 40px auto;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: white;
+  display: block;
+  text-align: center;
+}
+
+.whole-page {
+  margin: 150px auto;
+  max-width: 80%;
+}
+
+.container {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+  "boxOne boxTwo boxThree"
+  "boxFour boxFive boxSix";
+
+  width: 100%;
+}
+
+.b1 {
+  grid-area: boxOne;
+  border-style: solid;
+  border-color: white;
+}
+
+.b2 {
+  grid-area: boxTwo;
+  border-style: solid;
+  border-color: white;
+}
+
+.b3 {
+  grid-area: boxThree;
+  border-style: solid;
+  border-color: white;
+}
+
+.b4 {
+  grid-area: boxFour;
+  border-style: solid;
+  border-color: white;
+}
+
+.b5 {
+  grid-area: boxFive;
+  border-style: solid;
+  border-color: white;
+}
+
+.b6 {
+  grid-area: boxSix;
+  border-style: solid;
+  border-color: white;
+}
